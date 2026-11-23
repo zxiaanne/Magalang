@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,11 +187,15 @@ nav {
 /* CLICKABLE CARDS */
 .bento-grid {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(260px, 1fr)
-    );
+    grid-template-columns: 1fr;
     gap: 22px;
+    width: 100%;
+}
+
+.box-card {
+    width: 100%;
+    min-height: 180px;
+}
 }
 
 .box-card {
@@ -491,7 +494,7 @@ footer {
         <p>
             I'm an 18-year-old college student who loves
             music, food trips, taking pictures, and making
-            memories with the people who matter most to me.
+            memories with the people who matter most to me. 
             Welcome to my personal portfolio!
         </p>
 
@@ -640,7 +643,6 @@ footer {
 
     <p>
         Thank you for visiting my personal portfolio!
-        Feel free to connect with me.
     </p>
 
     <div class="social-links">
@@ -655,15 +657,6 @@ footer {
             Instagram
         </a>
 
-        <a href="#" class="social-btn">
-            <i class="fa-brands fa-tiktok"></i>
-            TikTok
-        </a>
-
-        <a href="mailto:YOUR-EMAIL@example.com"
-           class="social-btn">
-            <i class="fa-solid fa-envelope"></i>
-            Email Me
         </a>
 
     </div>
